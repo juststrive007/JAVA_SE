@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -16,14 +19,51 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="" />
+    <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/DocDemo.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/DocDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apidoc/DocDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apidoc/string/IndexOfDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apidoc/string/LengthDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apidoc/string/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="G:\idea-workspace\SE" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,20 +76,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l9LtzTmUPrcvmrGAtVFwfJuqvp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IndexOfDemo">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.HelloWorld" />
       <module name="SE" />
@@ -63,8 +109,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexOfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apidoc.string.IndexOfDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apidoc.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apidoc.string.LengthDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apidoc.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apidoc.string.StringDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apidoc.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IndexOfDemo" />
+        <item itemvalue="Application.LengthDemo" />
+        <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -79,7 +167,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607004578756</updated>
-      <workItem from="1607004582061" duration="1350000" />
+      <workItem from="1607004582061" duration="1765000" />
+      <workItem from="1607237641121" duration="4226000" />
+      <workItem from="1607257428227" duration="1678000" />
     </task>
     <servers />
   </component>
@@ -91,16 +181,69 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1360" y="386" width="497" height="390" key="#Notifications" timestamp="1607237816109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1360" y="386" width="497" height="390" key="#Notifications/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607237816109" />
     <state x="880" y="98" key="#Project_Structure" timestamp="1607004600485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="98" key="#Project_Structure/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607004600485" />
+    <state x="1221" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607239483794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1221" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239483794" />
+    <state x="1257" y="265" key="FileChooserDialogImpl" timestamp="1607239249693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
+    <state width="829" height="279" key="GridCell.Tab.0.bottom" timestamp="1607259066099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="829" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
+    <state width="829" height="279" key="GridCell.Tab.0.center" timestamp="1607259066099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="829" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
+    <state width="829" height="279" key="GridCell.Tab.0.left" timestamp="1607259066099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="829" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
+    <state width="829" height="279" key="GridCell.Tab.0.right" timestamp="1607259066099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="829" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
+    <state x="672" y="109" key="SettingsEditor" timestamp="1607258650185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="109" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607258650185" />
   </component>
 </project>
