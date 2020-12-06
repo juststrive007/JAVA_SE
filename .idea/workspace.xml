@@ -29,32 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/DocDemo.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/DocDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/apidoc/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apidoc/DocDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apidoc/string/IndexOfDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apidoc/string/LengthDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apidoc/string/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apidoc/string/SubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/IndexOfDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/apidoc/string/IndexOfDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apidoc/string/IndexOfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apidoc/string/IndexOfDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +147,7 @@
       <updated>1607004578756</updated>
       <workItem from="1607004582061" duration="1765000" />
       <workItem from="1607237641121" duration="4226000" />
-      <workItem from="1607257428227" duration="1678000" />
+      <workItem from="1607257428227" duration="3093000" />
     </task>
     <servers />
   </component>
@@ -225,22 +203,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="829" height="279" key="GridCell.Tab.0.bottom" timestamp="1607259066099">
+    <state width="829" height="279" key="GridCell.Tab.0.bottom" timestamp="1607265339586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="829" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
-    <state width="829" height="279" key="GridCell.Tab.0.center" timestamp="1607259066099">
+    <state width="829" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607265339586" />
+    <state width="829" height="279" key="GridCell.Tab.0.center" timestamp="1607265339586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="829" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
-    <state width="829" height="279" key="GridCell.Tab.0.left" timestamp="1607259066099">
+    <state width="829" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607265339586" />
+    <state width="829" height="279" key="GridCell.Tab.0.left" timestamp="1607265339586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="829" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
-    <state width="829" height="279" key="GridCell.Tab.0.right" timestamp="1607259066099">
+    <state width="829" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607265339586" />
+    <state width="829" height="279" key="GridCell.Tab.0.right" timestamp="1607265339586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="829" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607259066099" />
+    <state width="829" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607265339586" />
     <state x="672" y="109" key="SettingsEditor" timestamp="1607258650185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

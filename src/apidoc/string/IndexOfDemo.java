@@ -8,9 +8,19 @@ package apidoc.string;
  */
 public class IndexOfDemo {
     public static void main(String[] args){
+        //            1234567890123456
         String str = "thinking in java";
         int index=str.indexOf("in");
         System.out.println(index);
+
+        //从指定位置开始查找第一次出现的位置
+        index = str.indexOf("in",9);
+        System.out.println(index);
+
+        //查找最后一次出现给定字符串的位置
+        index = str.lastIndexOf("in");
+        System.out.println(index);
+
     }
 
 }
