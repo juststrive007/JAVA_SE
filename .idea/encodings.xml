@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/apidoc/DocDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/apidoc/string/LengthDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/apidoc/string/ToUpCaseDemo.java" charset="GBK" />
   </component>
 </project>

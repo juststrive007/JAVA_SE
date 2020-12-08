@@ -1,5 +1,7 @@
 package apidoc.string;
 
+import java.awt.*;
+
 /**
  * String subString(int start,int end)
  * 截取指定范围内的字符串
@@ -8,4 +10,11 @@ package apidoc.string;
  * @author wm
  */
 public class SubString {
+    public static void main(String[] args) {
+        String host="www.google.com";
+        String sub=host.substring(4,10);
+        System.out.println(sub);
+        sub=host.substring(4);
+        System.out.println(sub);
+    }
 }
