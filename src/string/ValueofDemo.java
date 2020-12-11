@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * String 提供了一组静态方法valueOf

@@ -1,6 +1,4 @@
-package apidoc.string;
-
-import java.awt.*;
+package string;
 
 /**
  * String subString(int start,int end)

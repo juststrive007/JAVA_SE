@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * 获取给定位置上的字符

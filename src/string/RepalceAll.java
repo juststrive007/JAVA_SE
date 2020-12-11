@@ -1,6 +1,4 @@
-package apidoc.string;
-
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+package string;
 
 /**
  * String replaceAll(String regex,String str)

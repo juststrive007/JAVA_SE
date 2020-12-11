@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * String 频繁修改带来性能消耗

@@ -1,6 +1,6 @@
-package apidoc.object;
+package object;
 
-import java.security.PublicKey;
+import java.util.Objects;
 
 /**
  * 使用当前类测试object相关方法的重写
@@ -36,5 +36,33 @@ public class Point {
 
     public void setY(int y) {
         this.y = y;
+    }
+
+    /**
+     * 重写toString方法，
+     * 原则:返回的字符串应当包含当前对象的相关信息
+     * 具体格式没有要求，可以结合需求而定。
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Point point = (Point) o;
+        return x == point.x &&
+                y == point.y;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
     }
 }

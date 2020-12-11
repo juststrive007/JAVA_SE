@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * boolean startWith(String str)

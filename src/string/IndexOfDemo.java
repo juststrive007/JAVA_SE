@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * int indexOf(String str)

@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * 实现方法，完成获取域名的操作

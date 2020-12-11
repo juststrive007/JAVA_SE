@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * StringBuilder 修改字符串的性能

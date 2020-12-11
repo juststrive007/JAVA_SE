@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * 字符串支持正则表达式方法二：

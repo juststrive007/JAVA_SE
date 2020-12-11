@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * String是不变对象，即：字符串对象一旦创建，

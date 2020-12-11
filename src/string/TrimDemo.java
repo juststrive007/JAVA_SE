@@ -1,4 +1,4 @@
-package apidoc.string;
+package string;
 
 /**
  * 去除当前字符串两边的空白符
