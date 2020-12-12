@@ -29,27 +29,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/integer/IntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpgcpy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raf.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/CreatNewFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/DeleteDirDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/DeleteFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/FileDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/ListFileDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/ListFilesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/MkdirDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/MkdirsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integer/IngegerDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integer/IntegerDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/CopyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/RADDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/RAFDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/object/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/CharAtDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/CharAtDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/IndexOfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/IndexOfDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/LengthDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LengthDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/MatchesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/MatchesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/RepalceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RepalceAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/SplitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/SplitDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/StartsWithDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StartsWithDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StringBuilderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/StringBuilderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StringBuilderDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/StringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StringDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/SubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/ToUpCaseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/ToUpCaseDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/TrimDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/TrimDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apidoc/string/ValueofDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/ValueofDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/object/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/object/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/CharAtDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/IndexOfDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/LengthDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/MatchesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/RepalceAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/SplitDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StartsWithDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringBuilderDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/SubString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/ToUpCaseDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/TrimDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/ValueofDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integer/IntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integer/IntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,17 +105,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="object.Demo" />
+  <component name="RunManager" selected="Application.CopyDemo">
+    <configuration name="CopyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.CopyDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="object.*" />
+          <option name="PATTERN" value="raf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.MatchesDemo" />
+    <configuration name="ListFileDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file.ListFileDemo2" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepalceAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RepalceAll" />
+    <configuration name="RADDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.RADDemo2" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="raf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.SplitDemo" />
+    <configuration name="RAFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.RAFDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="raf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringBuilderDemo2" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file.Test" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.RepalceAll" />
-        <item itemvalue="Application.SplitDemo" />
-        <item itemvalue="Application.MatchesDemo" />
-        <item itemvalue="Application.StringBuilderDemo2" />
+        <item itemvalue="Application.CopyDemo" />
+        <item itemvalue="Application.RAFDemo" />
+        <item itemvalue="Application.RADDemo2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ListFileDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +202,7 @@
       <workItem from="1607522388591" duration="4107000" />
       <workItem from="1607609794686" duration="3372000" />
       <workItem from="1607694088052" duration="4104000" />
+      <workItem from="1607750143271" duration="13850000" />
     </task>
     <servers />
   </component>
@@ -230,6 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="98" key="#Project_Structure/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607004600485" />
+    <state x="1192" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607765698738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1192" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607765698738" />
     <state x="1302" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1607696789627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,22 +266,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="786" height="344" key="GridCell.Tab.0.bottom" timestamp="1607699405747">
+    <state width="786" height="275" key="GridCell.Tab.0.bottom" timestamp="1607767227414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state width="786" height="344" key="GridCell.Tab.0.center" timestamp="1607699405747">
+    <state width="786" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227414" />
+    <state width="786" height="275" key="GridCell.Tab.0.center" timestamp="1607767227413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state width="786" height="344" key="GridCell.Tab.0.left" timestamp="1607699405747">
+    <state width="786" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227413" />
+    <state width="786" height="275" key="GridCell.Tab.0.left" timestamp="1607767227413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state width="786" height="344" key="GridCell.Tab.0.right" timestamp="1607699405747">
+    <state width="786" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227413" />
+    <state width="786" height="275" key="GridCell.Tab.0.right" timestamp="1607767227414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
+    <state width="786" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227414" />
     <state width="786" height="344" key="GridCell.Tab.1.bottom" timestamp="1607699405747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -274,9 +298,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="786" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state x="672" y="109" key="SettingsEditor" timestamp="1607258650185">
+    <state x="672" y="109" key="SettingsEditor" timestamp="1607751975591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="109" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607258650185" />
+    <state x="672" y="109" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607751975591" />
+    <state x="1290" y="183" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607755125842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1290" y="183" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607755125842" />
   </component>
 </project>
