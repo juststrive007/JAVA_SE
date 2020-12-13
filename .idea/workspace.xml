@@ -29,46 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpgcpy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raf.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/CreatNewFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/DeleteDirDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/DeleteFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/FileDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/ListFileDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/ListFilesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/MkdirDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/MkdirsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integer/IngegerDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integer/IntegerDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/CopyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/RADDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/RAFDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filename" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/CopyDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/RAFDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/ReadStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/WriteStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wm.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmcopy.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/object/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/object/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/CharAtDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/IndexOfDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/LengthDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/MatchesDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/RepalceAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/SplitDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StartsWithDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringBuilderDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringBuilderDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/StringDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/SubString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/ToUpCaseDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/TrimDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/apidoc/string/ValueofDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integer/IntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integer/IntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +79,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.CopyDemo">
+  <component name="RunManager" selected="Application.Note">
     <configuration name="CopyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="raf.CopyDemo" />
       <module name="SE" />
@@ -123,21 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListFileDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.ListFileDemo2" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RADDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raf.RADDemo2" />
+    <configuration name="CopyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.CopyDemo2" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RAFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raf.RAFDemo" />
+    <configuration name="Note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.Note" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -162,12 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.Test" />
+    <configuration name="ReadStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.ReadStringDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.*" />
+          <option name="PATTERN" value="raf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.WriteStringDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="raf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Note" />
+        <item itemvalue="Application.ReadStringDemo" />
+        <item itemvalue="Application.WriteStringDemo" />
+        <item itemvalue="Application.CopyDemo2" />
         <item itemvalue="Application.CopyDemo" />
-        <item itemvalue="Application.RAFDemo" />
-        <item itemvalue="Application.RADDemo2" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ListFileDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +172,9 @@
       <workItem from="1607522388591" duration="4107000" />
       <workItem from="1607609794686" duration="3372000" />
       <workItem from="1607694088052" duration="4104000" />
-      <workItem from="1607750143271" duration="13850000" />
+      <workItem from="1607750143271" duration="14699000" />
+      <workItem from="1607833077483" duration="1882000" />
+      <workItem from="1607862211005" duration="2706000" />
     </task>
     <servers />
   </component>
@@ -266,22 +238,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="786" height="275" key="GridCell.Tab.0.bottom" timestamp="1607767227414">
+    <state width="804" height="117" key="GridCell.Tab.0.bottom" timestamp="1607864919019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227414" />
-    <state width="786" height="275" key="GridCell.Tab.0.center" timestamp="1607767227413">
+    <state width="804" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919019" />
+    <state width="804" height="117" key="GridCell.Tab.0.center" timestamp="1607864919018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227413" />
-    <state width="786" height="275" key="GridCell.Tab.0.left" timestamp="1607767227413">
+    <state width="804" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919018" />
+    <state width="804" height="117" key="GridCell.Tab.0.left" timestamp="1607864919018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227413" />
-    <state width="786" height="275" key="GridCell.Tab.0.right" timestamp="1607767227414">
+    <state width="804" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919018" />
+    <state width="804" height="117" key="GridCell.Tab.0.right" timestamp="1607864919018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607767227414" />
+    <state width="804" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919018" />
     <state width="786" height="344" key="GridCell.Tab.1.bottom" timestamp="1607699405747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
