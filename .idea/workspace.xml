@@ -29,16 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/filename" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/CopyDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/RAFDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/ReadStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raf/WriteStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wm.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmcopy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/RegDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/ShowAllUserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raf/UpdateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/raf/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/raf/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raf/RAFDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/raf/RAFDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,33 +78,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Note">
-    <configuration name="CopyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raf.CopyDemo" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="raf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raf.CopyDemo2" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="raf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UpdateDemo">
     <configuration name="Note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="raf.Note" />
       <module name="SE" />
@@ -119,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raf.ReadStringDemo" />
+    <configuration name="RAFDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.RAFDemo3" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +105,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="raf.WriteStringDemo" />
+    <configuration name="RegDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.RegDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="raf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowAllUserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.ShowAllUserDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="raf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="raf.UpdateDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UpdateDemo" />
+        <item itemvalue="Application.ShowAllUserDemo" />
+        <item itemvalue="Application.RegDemo" />
+        <item itemvalue="Application.RAFDemo3" />
         <item itemvalue="Application.Note" />
-        <item itemvalue="Application.ReadStringDemo" />
-        <item itemvalue="Application.WriteStringDemo" />
-        <item itemvalue="Application.CopyDemo2" />
-        <item itemvalue="Application.CopyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +174,8 @@
       <workItem from="1607750143271" duration="14699000" />
       <workItem from="1607833077483" duration="1882000" />
       <workItem from="1607862211005" duration="2706000" />
+      <workItem from="1607865202861" duration="1185000" />
+      <workItem from="1607947309379" duration="8650000" />
     </task>
     <servers />
   </component>
@@ -238,22 +239,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="804" height="117" key="GridCell.Tab.0.bottom" timestamp="1607864919019">
+    <state width="858" height="209" key="GridCell.Tab.0.bottom" timestamp="1607958405736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="804" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919019" />
-    <state width="804" height="117" key="GridCell.Tab.0.center" timestamp="1607864919018">
+    <state width="858" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607958405736" />
+    <state width="858" height="209" key="GridCell.Tab.0.center" timestamp="1607958405736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="804" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919018" />
-    <state width="804" height="117" key="GridCell.Tab.0.left" timestamp="1607864919018">
+    <state width="858" height="209" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607958405736" />
+    <state width="858" height="209" key="GridCell.Tab.0.left" timestamp="1607958405736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="804" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919018" />
-    <state width="804" height="117" key="GridCell.Tab.0.right" timestamp="1607864919018">
+    <state width="858" height="209" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607958405736" />
+    <state width="858" height="209" key="GridCell.Tab.0.right" timestamp="1607958405736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="804" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607864919018" />
+    <state width="858" height="209" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607958405736" />
     <state width="786" height="344" key="GridCell.Tab.1.bottom" timestamp="1607699405747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,5 +279,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1290" y="183" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607755125842" />
+    <state x="1124" y="244" key="run.anything.popup" timestamp="1607951128240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1124" y="244" key="run.anything.popup/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607951128240" />
   </component>
 </project>
