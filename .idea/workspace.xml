@@ -29,23 +29,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/BOS_flushDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/CopyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/CopyDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FISDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FOSDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/OISDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/OOSDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/OSWDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmcpy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmww.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pw2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/BRDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/ISRDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/PWDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/PWdemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/raf/UpdateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/raf/UpdateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.dat" beforeDir="false" afterPath="$PROJECT_DIR$/user.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/io/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/io/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/OSWDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/OSWDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +81,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.OISDemo">
-    <configuration name="BOS_flushDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.BOS_flushDemo" />
+  <component name="RunManager" selected="Application.BRDemo">
+    <configuration name="BRDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.BRDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.CopyDemo" />
+    <configuration name="ISRDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.ISRDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.CopyDemo2" />
+    <configuration name="Note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Note" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OISDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.OISDemo" />
+    <configuration name="PWDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.PWDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.OOSDemo" />
+    <configuration name="PWdemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.PWdemo2" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OISDemo" />
-        <item itemvalue="Application.OOSDemo" />
-        <item itemvalue="Application.BOS_flushDemo" />
-        <item itemvalue="Application.CopyDemo2" />
-        <item itemvalue="Application.CopyDemo" />
+        <item itemvalue="Application.BRDemo" />
+        <item itemvalue="Application.Note" />
+        <item itemvalue="Application.PWdemo2" />
+        <item itemvalue="Application.PWDemo" />
+        <item itemvalue="Application.ISRDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +182,7 @@
       <workItem from="1608119331466" duration="10015000" />
       <workItem from="1608207926549" duration="252000" />
       <workItem from="1608208730842" duration="2814000" />
+      <workItem from="1608354340952" duration="5692000" />
     </task>
     <servers />
   </component>
@@ -250,38 +246,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="834" height="232" key="GridCell.Tab.0.bottom" timestamp="1608214898893">
+    <state width="834" height="239" key="GridCell.Tab.0.bottom" timestamp="1608359714293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608214898893" />
-    <state width="834" height="232" key="GridCell.Tab.0.center" timestamp="1608214898893">
+    <state width="834" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359714293" />
+    <state width="834" height="239" key="GridCell.Tab.0.center" timestamp="1608359714293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608214898893" />
-    <state width="834" height="232" key="GridCell.Tab.0.left" timestamp="1608214898893">
+    <state width="834" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359714293" />
+    <state width="834" height="239" key="GridCell.Tab.0.left" timestamp="1608359714293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608214898893" />
-    <state width="834" height="232" key="GridCell.Tab.0.right" timestamp="1608214898893">
+    <state width="834" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359714293" />
+    <state width="834" height="239" key="GridCell.Tab.0.right" timestamp="1608359714293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608214898893" />
-    <state width="786" height="344" key="GridCell.Tab.1.bottom" timestamp="1607699405747">
+    <state width="834" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359714293" />
+    <state width="834" height="344" key="GridCell.Tab.1.bottom" timestamp="1608359672257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state width="786" height="344" key="GridCell.Tab.1.center" timestamp="1607699405747">
+    <state width="834" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359672257" />
+    <state width="834" height="344" key="GridCell.Tab.1.center" timestamp="1608359672257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state width="786" height="344" key="GridCell.Tab.1.left" timestamp="1607699405747">
+    <state width="834" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359672257" />
+    <state width="834" height="344" key="GridCell.Tab.1.left" timestamp="1608359672257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
-    <state width="786" height="344" key="GridCell.Tab.1.right" timestamp="1607699405747">
+    <state width="834" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359672257" />
+    <state width="834" height="344" key="GridCell.Tab.1.right" timestamp="1608359672257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="786" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607699405747" />
+    <state width="834" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608359672257" />
     <state x="672" y="109" key="SettingsEditor" timestamp="1607751975591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,5 +290,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1124" y="244" key="run.anything.popup/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607951128240" />
+    <state x="1143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1608358658304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608358658304" />
   </component>
 </project>
