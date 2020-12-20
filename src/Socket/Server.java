@@ -1,0 +1,82 @@
+package Socket;
+
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ * 聊天室服务端
+ * @author wm
+ */
+public class Server {
+    /**
+     * java.net.ServerSocket
+     * 运行在服务端的ServerSocket主要有两个工种
+     * 1.向服务端申请服务端口，客户端就是通过这个端口与服务端建立连接的
+     * 2.监听服务端口，一旦客户端连接了就会自动创建一个Socket实例，
+     * 通过该Socket就可以与客户端交互
+     */
+    private ServerSocket server;
+    /**
+     * 构造方法，用来初始化服务端
+     */
+    public Server(){
+        try {
+            System.out.println("start server ...");
+            server=new ServerSocket(8088);
+            System.out.println("finished!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    /**
+     * 服务端开始工作方法
+     */
+    public void start(){
+        try {
+            /**
+             * Socket accept()
+             * ServerSocket提供的该方法用于等待客户端的连接，一旦一个客户端
+             * 建立连接该方法会立刻返回一个Socket实例，通过该Socket就可以
+             * 与该客户端交互了
+             * 多次调用该方法可以等待多个客户端的连接。
+             */
+            System.out.println("waiting for connection");
+            Socket socket = server.accept() ;
+            System.out.println("one client connected");
+            /**
+             * InputStream getInputStream()
+             * 通过Socket获取的输入流读取的字节
+             * 是远端计算机发送过来的字节
+             */
+            InputStream is= socket.getInputStream();
+            InputStreamReader isr=
+                    new InputStreamReader(is);
+            BufferedReader br=
+                    new BufferedReader(isr);
+            while(true) {
+                String message = br.readLine();
+                if("exit".equals(message)){
+                    break;
+                }
+                System.out.println("the client message is :" + message);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+    public static void main(String[] args) {
+        Server server=new Server();
+        server.start();
+    }
+}
