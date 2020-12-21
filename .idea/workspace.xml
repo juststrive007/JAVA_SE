@@ -29,13 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Socket/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ExceptionApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/FinallyDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/IllegalAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ThrowsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wm.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmcopy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmcpy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmww.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +79,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="AutoCloseableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.AutoCloseableDemo" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThrowDemo">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Socket.Client" />
       <module name="SE" />
@@ -104,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.FinallyDemo2" />
+    <configuration name="ExceptionApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ExceptionApiDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -143,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ThrowDemo" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowDemo" />
+        <item itemvalue="Application.ExceptionApiDemo" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.FinallyDemo3" />
-        <item itemvalue="Application.AutoCloseableDemo" />
-        <item itemvalue="Application.FinallyDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +182,7 @@
       <workItem from="1608208730842" duration="2814000" />
       <workItem from="1608354340952" duration="12723000" />
       <workItem from="1608442888414" duration="8002000" />
+      <workItem from="1608551402081" duration="4909000" />
     </task>
     <servers />
   </component>
@@ -231,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1192" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607765698738" />
-    <state x="1302" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1608130442117">
+    <state x="1302" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1608558250805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1302" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608130442117" />
+    <state x="1302" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608558250805" />
     <state x="1221" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607239483794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,22 +246,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="823" height="258" key="GridCell.Tab.0.bottom" timestamp="1608474081129">
+    <state width="823" height="258" key="GridCell.Tab.0.bottom" timestamp="1608557989533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="823" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608474081129" />
-    <state width="823" height="258" key="GridCell.Tab.0.center" timestamp="1608474081129">
+    <state width="823" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608557989533" />
+    <state width="823" height="258" key="GridCell.Tab.0.center" timestamp="1608557989533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="823" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608474081129" />
-    <state width="823" height="258" key="GridCell.Tab.0.left" timestamp="1608474081129">
+    <state width="823" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608557989533" />
+    <state width="823" height="258" key="GridCell.Tab.0.left" timestamp="1608557989533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="823" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608474081129" />
-    <state width="823" height="258" key="GridCell.Tab.0.right" timestamp="1608474081129">
+    <state width="823" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608557989533" />
+    <state width="823" height="258" key="GridCell.Tab.0.right" timestamp="1608557989533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="823" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608474081129" />
+    <state width="823" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608557989533" />
     <state width="834" height="344" key="GridCell.Tab.1.bottom" timestamp="1608367620605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
