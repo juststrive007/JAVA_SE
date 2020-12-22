@@ -8,6 +8,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
+import java.net.SocketTimeoutException;
 
 /**
  * 聊天室服务端
@@ -61,8 +63,18 @@ public class Server {
                     new InputStreamReader(is);
             BufferedReader br=
                     new BufferedReader(isr);
-            while(true) {
-                String message = br.readLine();
+            String message = null;
+            /**
+             * 使用BufferedReader 读取客户端发过来的一行字符串
+             * 时，当客户端断开连接，此时客户端的系统不同时，反应
+             * 通常不同：
+             * 当windows的客户端断开连接时，readline方法通常会
+             * 直接抛出SocketException
+             * 当Linux的客户端断开时，readLine方法会返回null值
+             *
+             */
+            while((message=br.readLine())!=null) {
+
                 if("exit".equals(message)){
                     break;
                 }
@@ -70,7 +82,12 @@ public class Server {
             }
         } catch (IOException e) {
             e.printStackTrace();
+        }catch (Exception e){
+            e.printStackTrace();
         }
+
+
+        System.out.println("test");
 
 
     }
