@@ -1,6 +1,7 @@
 package Socket;
 
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+import sun.awt.windows.ThemeReader;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -50,35 +51,14 @@ public class Server {
              * 与该客户端交互了
              * 多次调用该方法可以等待多个客户端的连接。
              */
-            System.out.println("waiting for connection");
-            Socket socket = server.accept() ;
-            System.out.println("one client connected");
-            /**
-             * InputStream getInputStream()
-             * 通过Socket获取的输入流读取的字节
-             * 是远端计算机发送过来的字节
-             */
-            InputStream is= socket.getInputStream();
-            InputStreamReader isr=
-                    new InputStreamReader(is);
-            BufferedReader br=
-                    new BufferedReader(isr);
-            String message = null;
-            /**
-             * 使用BufferedReader 读取客户端发过来的一行字符串
-             * 时，当客户端断开连接，此时客户端的系统不同时，反应
-             * 通常不同：
-             * 当windows的客户端断开连接时，readline方法通常会
-             * 直接抛出SocketException
-             * 当Linux的客户端断开时，readLine方法会返回null值
-             *
-             */
-            while((message=br.readLine())!=null) {
-
-                if("exit".equals(message)){
-                    break;
-                }
-                System.out.println("the client message is :" + message);
+            while (true) {
+                System.out.println("waiting for connection");
+                Socket socket = server.accept();
+                System.out.println("one client connected");
+                //创建一个线程处理该客户端交互
+                Handlerclient handlerclient=new Handlerclient(socket);
+                Thread t1= new Thread(handlerclient);
+                t1.start();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -96,4 +76,55 @@ public class Server {
         Server server=new Server();
         server.start();
     }
+
+    private class Handlerclient implements Runnable{
+        private Socket socket;
+        private String host;
+        public Handlerclient(Socket socket){
+            this.socket=socket;
+            this.host=socket.getInetAddress().getHostAddress();
+        }
+        public void run() {
+            /**
+             * InputStream getInputStream()
+             * 通过Socket获取的输入流读取的字节
+             * 是远端计算机发送过来的字节
+             */
+            try {
+
+
+                InputStream is = socket.getInputStream();
+                InputStreamReader isr =
+                        new InputStreamReader(is);
+                BufferedReader br =
+                        new BufferedReader(isr);
+                String message = null;
+                /**
+                 * 使用BufferedReader 读取客户端发过来的一行字符串
+                 * 时，当客户端断开连接，此时客户端的系统不同时，反应
+                 * 通常不同：
+                 * 当windows的客户端断开连接时，readline方法通常会
+                 * 直接抛出SocketException
+                 * 当Linux的客户端断开时，readLine方法会返回null值
+                 *
+                 */
+                while ((message = br.readLine()) != null) {
+
+                    if ("exit".equals(message)) {
+                        break;
+                    }
+                    System.out.println("the "+host+" message is :" + message);
+                /*
+                    Thread t= Thread.currentThread();
+                    System.out.println("current thread is "+t);
+                */
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+
+    }
+
 }
