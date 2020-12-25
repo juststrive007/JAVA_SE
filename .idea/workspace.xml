@@ -29,12 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/CurrentThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadInfodemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/PriorityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SleepDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Socket/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.ThreadInfodemo">
+  <component name="RunManager" selected="Application.SleepDemo">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Socket.Client" />
       <module name="SE" />
@@ -90,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.CurrentThreadDemo" />
+    <configuration name="PriorityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.PriorityDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadDemo3" />
+    <configuration name="SleepDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SleepDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SleepDemo" />
+        <item itemvalue="Application.PriorityDemo" />
         <item itemvalue="Application.ThreadInfodemo" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.CurrentThreadDemo" />
-        <item itemvalue="Application.ThreadDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +179,7 @@
       <workItem from="1608551402081" duration="6890000" />
       <workItem from="1608637764762" duration="5067000" />
       <workItem from="1608726377307" duration="5591000" />
+      <workItem from="1608908056255" duration="1377000" />
     </task>
     <servers />
   </component>
@@ -245,22 +243,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="807" height="258" key="GridCell.Tab.0.bottom" timestamp="1608735924059">
+    <state width="807" height="258" key="GridCell.Tab.0.bottom" timestamp="1608909435201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608735924059" />
-    <state width="807" height="258" key="GridCell.Tab.0.center" timestamp="1608735924059">
+    <state width="807" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
+    <state width="807" height="258" key="GridCell.Tab.0.center" timestamp="1608909435201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608735924059" />
-    <state width="807" height="258" key="GridCell.Tab.0.left" timestamp="1608735924059">
+    <state width="807" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
+    <state width="807" height="258" key="GridCell.Tab.0.left" timestamp="1608909435201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608735924059" />
-    <state width="807" height="258" key="GridCell.Tab.0.right" timestamp="1608735924059">
+    <state width="807" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
+    <state width="807" height="258" key="GridCell.Tab.0.right" timestamp="1608909435201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608735924059" />
+    <state width="807" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
     <state width="823" height="344" key="GridCell.Tab.1.bottom" timestamp="1608563891544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
