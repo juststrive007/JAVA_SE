@@ -58,15 +58,32 @@ public class Client {
                     new BufferedWriter(osw);
             PrintWriter pw=
                     new PrintWriter(bw,true);
-            pw.println("hello ,server!");
+
+            /**
+             * 通过socket获取输入流，读取服务端发送过来的消息
+             */
+            InputStream is=socket.getInputStream();
+            InputStreamReader isr=new InputStreamReader(is);
+            BufferedReader br=new BufferedReader(isr);
+
+
+
+            //输出消息
+            //pw.println("hello ,server!");
 
             Scanner scanner=new Scanner(System.in);
 
-            String read;
+
             while(true){
-                read=scanner.nextLine();
-                pw.println(read);
-                if("exit".equals(read)){
+                String line=scanner.nextLine();
+                pw.println(line);
+
+                //从服务器读一行
+                line=br.readLine();
+                System.out.println("host:"+line);
+
+
+                if("exit".equals(line)){
                     break;
                 }
             }

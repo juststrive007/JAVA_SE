@@ -3,10 +3,7 @@ package Socket;
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 import sun.awt.windows.ThemeReader;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
@@ -15,6 +12,9 @@ import java.net.SocketTimeoutException;
 /**
  * 聊天室服务端
  * @author wm
+ *
+ * 注意：内部类：可以共同访问外部类属性
+ * 内部类分为：成员内部类、方法内部类、匿名内部类、静态嵌套内部类
  */
 public class Server {
     /**
@@ -98,6 +98,19 @@ public class Server {
                         new InputStreamReader(is);
                 BufferedReader br =
                         new BufferedReader(isr);
+                /**
+                 * 通过Socket获取输出流，用于给客户端发送消息
+                 */
+                OutputStream out=socket.getOutputStream();
+                OutputStreamWriter osw=
+                        new OutputStreamWriter(out,"UTF-8");
+                BufferedWriter bw=
+                        new BufferedWriter(osw);
+                PrintWriter pw=
+                        new PrintWriter(bw,true);
+
+
+
                 String message = null;
                 /**
                  * 使用BufferedReader 读取客户端发过来的一行字符串
@@ -113,8 +126,11 @@ public class Server {
                     if ("exit".equals(message)) {
                         break;
                     }
+
                     System.out.println("the "+host+" message is :" + message);
-                /*
+
+                    pw.println(host+"said:"+message);
+                    /*
                     Thread t= Thread.currentThread();
                     System.out.println("current thread is "+t);
                 */
