@@ -29,9 +29,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/PriorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/SleepDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/DaemonThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SleepDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SyncDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SyncDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SyncDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SyncDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/thread/SleepDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/thread/SleepDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/SleepDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/SleepDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,22 +81,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.SleepDemo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Client" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.PriorityDemo" />
+  <component name="RunManager" selected="Application.SyncDemo4">
+    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.JoinDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -100,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Server" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SleepDemo" />
+    <configuration name="SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SyncDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +108,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInfodemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadInfodemo" />
+    <configuration name="SyncDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SyncDemo2" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SyncDemo3" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SyncDemo4" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SleepDemo" />
-        <item itemvalue="Application.PriorityDemo" />
-        <item itemvalue="Application.ThreadInfodemo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.SyncDemo4" />
+        <item itemvalue="Application.SyncDemo3" />
+        <item itemvalue="Application.SyncDemo2" />
+        <item itemvalue="Application.SyncDemo" />
+        <item itemvalue="Application.JoinDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +188,9 @@
       <workItem from="1608637764762" duration="5067000" />
       <workItem from="1608726377307" duration="5591000" />
       <workItem from="1608908056255" duration="1377000" />
+      <workItem from="1608967452085" duration="474000" />
+      <workItem from="1609053231498" duration="7479000" />
+      <workItem from="1609763404923" duration="4738000" />
     </task>
     <servers />
   </component>
@@ -243,22 +254,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="807" height="258" key="GridCell.Tab.0.bottom" timestamp="1608909435201">
+    <state width="803" height="320" key="GridCell.Tab.0.bottom" timestamp="1609768038885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
-    <state width="807" height="258" key="GridCell.Tab.0.center" timestamp="1608909435201">
+    <state width="803" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1609768038885" />
+    <state width="803" height="320" key="GridCell.Tab.0.center" timestamp="1609768038885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
-    <state width="807" height="258" key="GridCell.Tab.0.left" timestamp="1608909435201">
+    <state width="803" height="320" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1609768038885" />
+    <state width="803" height="320" key="GridCell.Tab.0.left" timestamp="1609768038885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
-    <state width="807" height="258" key="GridCell.Tab.0.right" timestamp="1608909435201">
+    <state width="803" height="320" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1609768038885" />
+    <state width="803" height="320" key="GridCell.Tab.0.right" timestamp="1609768038885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="807" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608909435201" />
+    <state width="803" height="320" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1609768038885" />
     <state width="823" height="344" key="GridCell.Tab.1.bottom" timestamp="1608563891544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
