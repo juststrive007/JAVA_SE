@@ -2,6 +2,7 @@ package Socket;
 
 import java.io.*;
 import java.net.Socket;
+import java.rmi.MarshalException;
 import java.util.Scanner;
 
 /**
@@ -46,6 +47,12 @@ public class Client {
      */
     public void start(){
         try{
+
+            //首先启动读取服务端消息的线程
+            ServerHandler handler=new ServerHandler();
+            Thread t=new Thread(handler);
+            t.start();
+
             /**
              * Outputstream getOutputStream()
              * 通过Socket获取一个输出流，通过这个输出流写出的字节会
@@ -59,12 +66,6 @@ public class Client {
             PrintWriter pw=
                     new PrintWriter(bw,true);
 
-            /**
-             * 通过socket获取输入流，读取服务端发送过来的消息
-             */
-            InputStream is=socket.getInputStream();
-            InputStreamReader isr=new InputStreamReader(is);
-            BufferedReader br=new BufferedReader(isr);
 
 
 
@@ -78,9 +79,7 @@ public class Client {
                 String line=scanner.nextLine();
                 pw.println(line);
 
-                //从服务器读一行
-                line=br.readLine();
-                System.out.println("host:"+line);
+
 
 
                 if("exit".equals(line)){
@@ -98,6 +97,30 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
         client.start();
+    }
+
+
+
+    private class ServerHandler implements Runnable {
+        @Override
+        public void run() {
+            try {
+                /**
+                 * 通过socket获取输入流，读取服务端发送过来的消息
+                 */
+                InputStream is=socket.getInputStream();
+                InputStreamReader isr=new InputStreamReader(is);
+                BufferedReader br=new BufferedReader(isr);
+                //从服务器读一行
+                String message=null;
+                while((message=br.readLine())!=null){
+                    System.out.println("host:"+ message);
+                }
+
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
     }
 
 }
