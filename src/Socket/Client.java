@@ -66,9 +66,6 @@ public class Client {
             PrintWriter pw=
                     new PrintWriter(bw,true);
 
-
-
-
             //输出消息
             //pw.println("hello ,server!");
 

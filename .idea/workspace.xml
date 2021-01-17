@@ -29,8 +29,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Socket/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ArrayToCollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ListDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/NewForDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/NewForDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/SortListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/SortListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Client$ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Client$ServerHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Server$Handlerclient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Server$Handlerclient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Server.class" afterDir="false" />
@@ -49,6 +66,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -77,13 +95,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Client" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SortListDemo2">
+    <configuration name="ArrayToCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ArrayToCollectionDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Demo" />
+    <configuration name="CollectionToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.CollectionToArray" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Server" />
+    <configuration name="ListDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ListDemo3" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SyncDemo3" />
+    <configuration name="SortListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.SortListDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SyncDemo4" />
+    <configuration name="SortListDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.SortListDemo2" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.SyncDemo4" />
-        <item itemvalue="Application.SyncDemo3" />
+        <item itemvalue="Application.SortListDemo2" />
+        <item itemvalue="Application.SortListDemo" />
+        <item itemvalue="Application.ArrayToCollectionDemo" />
+        <item itemvalue="Application.CollectionToArray" />
+        <item itemvalue="Application.ListDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +212,7 @@
       <workItem from="1609763404923" duration="4738000" />
       <workItem from="1610461380887" duration="2444000" />
       <workItem from="1610546294130" duration="3727000" />
+      <workItem from="1610866403173" duration="23021000" />
     </task>
     <servers />
   </component>
@@ -252,38 +276,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="926" height="233" key="GridCell.Tab.0.bottom" timestamp="1610550027353">
+    <state width="840" height="153" key="GridCell.Tab.0.bottom" timestamp="1610893499147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027353" />
-    <state width="926" height="233" key="GridCell.Tab.0.center" timestamp="1610550027352">
+    <state width="840" height="153" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
+    <state width="840" height="153" key="GridCell.Tab.0.center" timestamp="1610893499147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027352" />
-    <state width="926" height="233" key="GridCell.Tab.0.left" timestamp="1610550027352">
+    <state width="840" height="153" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
+    <state width="840" height="153" key="GridCell.Tab.0.left" timestamp="1610893499147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027352" />
-    <state width="926" height="233" key="GridCell.Tab.0.right" timestamp="1610550027352">
+    <state width="840" height="153" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
+    <state width="840" height="153" key="GridCell.Tab.0.right" timestamp="1610893499147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027352" />
-    <state width="926" height="233" key="GridCell.Tab.1.bottom" timestamp="1610550027348">
+    <state width="840" height="153" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
+    <state width="840" height="344" key="GridCell.Tab.1.bottom" timestamp="1610893499142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027348" />
-    <state width="926" height="233" key="GridCell.Tab.1.center" timestamp="1610550027348">
+    <state width="840" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499142" />
+    <state width="840" height="344" key="GridCell.Tab.1.center" timestamp="1610893499142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.1.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027348" />
-    <state width="926" height="233" key="GridCell.Tab.1.left" timestamp="1610550027348">
+    <state width="840" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499142" />
+    <state width="840" height="344" key="GridCell.Tab.1.left" timestamp="1610893499142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.1.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027348" />
-    <state width="926" height="233" key="GridCell.Tab.1.right" timestamp="1610550027348">
+    <state width="840" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499142" />
+    <state width="840" height="344" key="GridCell.Tab.1.right" timestamp="1610893499142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="926" height="233" key="GridCell.Tab.1.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610550027348" />
+    <state width="840" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499142" />
     <state x="672" y="109" key="SettingsEditor" timestamp="1608363757190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

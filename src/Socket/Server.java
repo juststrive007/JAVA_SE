@@ -96,6 +96,7 @@ public class Server {
              * 通过Socket获取的输入流读取的字节
              * 是远端计算机发送过来的字节
              */
+            PrintWriter pw =null;
             try {
 
 
@@ -112,16 +113,18 @@ public class Server {
                         new OutputStreamWriter(out,"UTF-8");
                 BufferedWriter bw=
                         new BufferedWriter(osw);
-                PrintWriter pw=
+                pw=
                         new PrintWriter(bw,true);
 
                 /**
                  * 将该输出流存入到allOut中用于共享
                  */
-                //1.数组扩容
-                allOut=Arrays.copyOf(allOut,allOut.length+1);
-                //2.拷贝pw到
-                allOut[allOut.length-1]=pw;
+                synchronized (allOut) {
+                    //1.数组扩容
+                    allOut = Arrays.copyOf(allOut, allOut.length + 1);
+                    //2.拷贝pw到
+                    allOut[allOut.length - 1] = pw;
+                }
                 System.out.println(host+"on line,now have pepole"+allOut.length);
 
 
@@ -142,9 +145,11 @@ public class Server {
                     }
 
                     System.out.println("client:"+host+" message is :" + message);
-                    //遍历allOut,将消息发送给所有客户端
-                    for(int i=0;i<allOut.length;i++) {
-                        allOut[i].println(host + "said:" + message);
+                    synchronized (allOut) {
+                        //遍历allOut,将消息发送给所有客户端
+                        for (int i = 0; i < allOut.length; i++) {
+                            allOut[i].println(host + "said:" + message);
+                        }
                     }
                     /*
                     Thread t= Thread.currentThread();
@@ -154,15 +159,25 @@ public class Server {
             }catch (Exception e){
                 e.printStackTrace();
             }finally {
-                //删除allOut数组中的输出流
-
+                synchronized (allOut) {
+                    //删除allOut数组中的输出流
+                    for (int i = 0; i < allOut.length; i++) {
+                        if (pw == allOut[i]) {
+                            //  System.arraycopy(allOut,i,allOut,allOut.length-1,1);
+                            allOut[i] = allOut[allOut.length - 1];
+                            allOut = Arrays.copyOf(allOut, allOut.length - 1);
+                            break;
+                        }
+                    }
+                }
+                System.out.println(host+"disconneted,now we have"+allOut.length);
 
                 //处理客户端断开连接后的操作
-               try{
-                   socket.close();
-               }catch (IOException e){
-                   e.printStackTrace();
-               }
+                try{
+                    socket.close();
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
 
             }
         }
