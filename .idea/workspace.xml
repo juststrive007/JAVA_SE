@@ -29,30 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/ArrayToCollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/ListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/ListDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/NewForDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/NewForDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/SortListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/SortListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/DequeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/QueueDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/SortListDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/StackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Client$ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Client$ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Server$Handlerclient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Server$Handlerclient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/Socket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/Socket/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Socket/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Socket/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/SortListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/SortListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,9 +86,9 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortListDemo2">
-    <configuration name="ArrayToCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ArrayToCollectionDemo" />
+  <component name="RunManager" selected="Application.StackDemo">
+    <configuration name="DequeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.DequeDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -114,21 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.CollectionToArray" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ListDemo3" />
+    <configuration name="QueueDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.QueueDemo1" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortListDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.SortListDemo2" />
+    <configuration name="SortListDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.SortListDemo3" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.StackDemo" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortListDemo2" />
+        <item itemvalue="Application.StackDemo" />
+        <item itemvalue="Application.DequeDemo" />
+        <item itemvalue="Application.QueueDemo1" />
         <item itemvalue="Application.SortListDemo" />
-        <item itemvalue="Application.ArrayToCollectionDemo" />
-        <item itemvalue="Application.CollectionToArray" />
-        <item itemvalue="Application.ListDemo3" />
+        <item itemvalue="Application.SortListDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +199,8 @@
       <workItem from="1610461380887" duration="2444000" />
       <workItem from="1610546294130" duration="3727000" />
       <workItem from="1610866403173" duration="23021000" />
+      <workItem from="1610973652728" duration="6939000" />
+      <workItem from="1611060673256" duration="1881000" />
     </task>
     <servers />
   </component>
@@ -276,22 +264,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
-    <state width="840" height="153" key="GridCell.Tab.0.bottom" timestamp="1610893499147">
+    <state width="840" height="163" key="GridCell.Tab.0.bottom" timestamp="1611061831384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="840" height="153" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
-    <state width="840" height="153" key="GridCell.Tab.0.center" timestamp="1610893499147">
+    <state width="840" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611061831384" />
+    <state width="840" height="163" key="GridCell.Tab.0.center" timestamp="1611061831384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="840" height="153" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
-    <state width="840" height="153" key="GridCell.Tab.0.left" timestamp="1610893499147">
+    <state width="840" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611061831384" />
+    <state width="840" height="163" key="GridCell.Tab.0.left" timestamp="1611061831384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="840" height="153" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
-    <state width="840" height="153" key="GridCell.Tab.0.right" timestamp="1610893499147">
+    <state width="840" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611061831384" />
+    <state width="840" height="163" key="GridCell.Tab.0.right" timestamp="1611061831384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="840" height="153" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499147" />
+    <state width="840" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611061831384" />
     <state width="840" height="344" key="GridCell.Tab.1.bottom" timestamp="1610893499142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
