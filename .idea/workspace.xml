@@ -29,16 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/DequeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/QueueDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/SortListDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/collection/SortListDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/SortListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/SortListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +45,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -79,7 +71,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -200,7 +192,7 @@
       <workItem from="1610546294130" duration="3727000" />
       <workItem from="1610866403173" duration="23021000" />
       <workItem from="1610973652728" duration="6939000" />
-      <workItem from="1611060673256" duration="1881000" />
+      <workItem from="1611060673256" duration="3977000" />
     </task>
     <servers />
   </component>
@@ -260,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1221" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239483794" />
-    <state x="1257" y="265" key="FileChooserDialogImpl" timestamp="1607239249693">
+    <state x="1257" y="265" key="FileChooserDialogImpl" timestamp="1611066706026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607239249693" />
+    <state x="1257" y="265" key="FileChooserDialogImpl/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611066706026" />
     <state width="840" height="163" key="GridCell.Tab.0.bottom" timestamp="1611061831384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,14 +288,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="840" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1610893499142" />
-    <state x="672" y="109" key="SettingsEditor" timestamp="1608363757190">
+    <state x="672" y="109" key="SettingsEditor" timestamp="1611066748013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="109" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1608363757190" />
+    <state x="672" y="109" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611066748013" />
     <state x="1290" y="183" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607755125842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1290" y="183" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1607755125842" />
+    <state x="669" y="130" key="new project wizard" timestamp="1611067054453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="130" key="new project wizard/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1611067054453" />
     <state x="1124" y="244" key="run.anything.popup" timestamp="1607951128240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
