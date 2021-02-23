@@ -30,6 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/MapDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -193,6 +194,7 @@
       <workItem from="1610866403173" duration="23021000" />
       <workItem from="1610973652728" duration="6939000" />
       <workItem from="1611060673256" duration="3977000" />
+      <workItem from="1613197825995" duration="1209000" />
     </task>
     <servers />
   </component>
