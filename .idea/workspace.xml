@@ -29,9 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baaf98f-9936-42c1-915c-4838ba6d887a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/map/MapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/ReflectDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/ReflectDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/ReflectDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/ReflectDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/MapDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE/map/MapDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE/map/MapDemo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,33 +86,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapDemo2">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Client" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.MapDemo1" />
-      <module name="SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReflectDemo4">
     <configuration name="MapDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.MapDemo2" />
       <module name="SE" />
@@ -120,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.Server" />
+    <configuration name="ReflectDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.ReflectDemo1" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.StackDemo" />
+    <configuration name="ReflectDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.ReflectDemo2" />
       <module name="SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,28 +126,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="ReflectDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.ReflectDemo3" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.ReflectDemo4" />
+      <module name="SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectDemo4" />
+        <item itemvalue="Application.ReflectDemo3" />
+        <item itemvalue="Application.ReflectDemo2" />
+        <item itemvalue="Application.ReflectDemo1" />
         <item itemvalue="Application.MapDemo2" />
-        <item itemvalue="Application.MapDemo1" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.StackDemo" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -212,11 +207,17 @@
       <workItem from="1612794161553" duration="728000" />
       <workItem from="1613903208524" duration="97000" />
       <workItem from="1613903372420" duration="1450000" />
+      <workItem from="1614043429414" duration="469000" />
+      <workItem from="1615209764077" duration="2136000" />
+      <workItem from="1615359312817" duration="1210000" />
+      <workItem from="1615466528662" duration="1360000" />
+      <workItem from="1615536852674" duration="790000" />
+      <workItem from="1615549241164" duration="4263000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -249,5 +250,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1614043896505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614043896505" />
+    <state width="976" height="253" key="GridCell.Tab.0.bottom" timestamp="1615561681846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="976" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615561681846" />
+    <state width="976" height="253" key="GridCell.Tab.0.center" timestamp="1615561681846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="976" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615561681846" />
+    <state width="976" height="253" key="GridCell.Tab.0.left" timestamp="1615561681846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="976" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615561681846" />
+    <state width="976" height="253" key="GridCell.Tab.0.right" timestamp="1615561681846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="976" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615561681846" />
   </component>
 </project>
